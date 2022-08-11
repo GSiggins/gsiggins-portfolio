@@ -1,6 +1,6 @@
 import React from 'react';
 
-function navBar(currentPage, handlePageChange) {
+function NavBar(currentPage, handlePageChange) {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
@@ -11,9 +11,9 @@ function navBar(currentPage, handlePageChange) {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a href="#home"
-                                onClick={() => handlePageChange('aboutMe')}
-                                className={currentPage === 'aboutMe' ? 'nav-link active' : 'nav-link'}>Home</a>
+                            <a href="#AboutMe"
+                                onClick={() => handlePageChange('AboutMe')}
+                                className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>Home</a>
                         </li>
                         <li className="nav-item">
                             <a href="#Projects"
@@ -21,9 +21,9 @@ function navBar(currentPage, handlePageChange) {
                                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#home"
-                                onClick={() => handlePageChange('contactForm')}
-                                className={currentPage === 'contactForm' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
+                            <a href="#ContactForm"
+                                onClick={() => handlePageChange('ContactForm')}
+                                className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,4 +44,4 @@ function navBar(currentPage, handlePageChange) {
 }
 
 
-export default navBar;
+export default NavBar;

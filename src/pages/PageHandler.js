@@ -1,8 +1,8 @@
-import AboutMe from './AboutMe'
-import ContactForm from './ContactForm'
-import Footer from './Footer'
-import Navbar from './Navbar'
-import Projects from './Projects'
+import AboutMe from '../components/AboutMe'
+import ContactForm from '../components/ContactForm'
+import Footer from '../components/Footer'
+import NavBar from './Navbar'
+import Projects from '../components/Projects'
 import React, { useState } from 'react';
 
 export default function PortfolioContainer() {
@@ -13,10 +13,10 @@ export default function PortfolioContainer() {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
         }
-        if (currentPage === 'projects') {
+        if (currentPage === 'Projects') {
             return <Projects />;
         }
-        if (currentPage === 'contactForm') {
+        if (currentPage === 'ContactForm') {
             return <ContactForm />;
         }
     };
@@ -25,9 +25,11 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
         </div>
     );
+    
 }
+

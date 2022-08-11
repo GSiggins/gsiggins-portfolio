@@ -1,6 +1,6 @@
 import React from 'react'
 
-function aboutMe() {
+function AboutMe() {
     return (
         <div className="container-fluid text-center text-wrap">
             <p>
@@ -15,4 +15,4 @@ function aboutMe() {
     )
 }
 
-export default aboutMe
+export default AboutMe
