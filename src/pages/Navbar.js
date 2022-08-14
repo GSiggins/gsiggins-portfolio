@@ -1,10 +1,11 @@
 import React from 'react';
 
-function NavBar(currentPage, handlePageChange) {
+
+function NavBar({currentPage, handlePageChange}) {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Greg Siggins Portfolio</a>
+                <a className="navbar-brand" href="#AboutMe">Greg Siggins Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -26,14 +27,6 @@ function NavBar(currentPage, handlePageChange) {
                                 className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Project Quick Links
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Project1</a></li>
-                                <li><a className="dropdown-item" href="#">Project2</a></li>
-                                <li><a className="dropdown-item" href="#">Project3</a></li>
-                            </ul>
                         </li>
                     </ul>
                 </div>

@@ -1,8 +1,17 @@
 import React from 'react'
+import Background from '../img/IMG_0077.JPG'
 
 function AboutMe() {
     return (
-        <div className="container-fluid text-center text-wrap">
+        <div style={{  
+            backgroundImage: `url(${Background})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            height: '90vh'
+          }}
+          className='about-container about-me'>
+        <div className="container-fluid col-10 border border-rounded text-center text-wrap background-blur-container">
             <p>
                 A Full-Stack Web developer who uses previous experience in paramedic-level emergency medicine to bring a detail-oriented,
                 critical-thinking mindset to my coding. Recently earned a certificate from the UCLA Extension Coding Bootcamp, with skills in the MERN stack,
@@ -11,6 +20,7 @@ function AboutMe() {
                 and deadlines is just some of the skills I bring to a team. I am excited to bring my problem-solving drive to a fast-paced team who provides an intuitive,
                 aesthetically pleasing, and UX focused product.
             </p>
+        </div>
         </div>
     )
 }
