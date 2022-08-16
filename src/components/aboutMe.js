@@ -8,10 +8,15 @@ function AboutMe() {
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-            height: '90vh'
+            height: '100vh',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
           }}
           className='about-container about-me'>
-        <div className="container-fluid col-10 border border-rounded text-center text-wrap background-blur-container">
+           
+        <div className="col-10 border rounded text-center text-wrap background-blur-container p-4 light-container-text">
+        <h1>About Me</h1>
             <p>
                 A Full-Stack Web developer who uses previous experience in paramedic-level emergency medicine to bring a detail-oriented,
                 critical-thinking mindset to my coding. Recently earned a certificate from the UCLA Extension Coding Bootcamp, with skills in the MERN stack,

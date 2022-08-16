@@ -1,0 +1,13 @@
+.light-container-text {
+    color:aliceblue;
+}
+
+.about-text-cont {
+    padding: 10px;
+}
+
+.background-blur-container {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    
+}

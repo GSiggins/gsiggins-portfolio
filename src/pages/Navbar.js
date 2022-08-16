@@ -1,11 +1,13 @@
 import React from 'react';
 
 
-function NavBar({currentPage, handlePageChange}) {
+function NavBar({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#AboutMe">Greg Siggins Portfolio</a>
+                <a href="#AboutMe"
+                    onClick={() => handlePageChange('AboutMe')}
+                    className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'} navbar-brand >Greg Siggins Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

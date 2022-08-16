@@ -9,22 +9,22 @@ export default function ProjectCard({ projectArray }) {
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
-      height: '90vh'
+      height: '100vh'
     }}
-    className='d-flex justify-content-space-around flex-wrap m-auto'>
-      <Row xs={1} md={2} lg={3}>
+    className='d-flex justify-content-evenly align-items-space-between flex-wrap m-auto'>
+      <Row xs={1} md={2} lg={3} className='m-4'>
         {projectArray &&
           projectArray.map((project) => (
-            <div>
+            <div className='d-flex justify-content-center align-items-center'>
 
-              <Card style={{ width: '18rem' }}>
+              <Card className='d-flex justify-content-center align-items-center background-blur-container light-container-text' style={{ width: '26rem' }}>
                 <Card.Img variant="top" src={project.projectImg} />
                 <Card.Body>
                   <Card.Title>{project.projectName}</Card.Title>
                   <Card.Text>
                     {project.projectDesc}
                   </Card.Text>
-                  <Stack direction="horizontal" gap={3}>
+                  <Stack className='d-flex justify-content-center align-items-center'  direction="horizontal" gap={5}>
                     <Button variant="secondary" href={project.projectGithub}>View Repo</Button>
                     <Button variant="secondary" href={project.projectLink}>View App</Button>
                   </Stack>

@@ -4,13 +4,14 @@ import Footer from '../components/Footer'
 import NavBar from './Navbar'
 import Projects from '../components/Projects'
 import React, { useState } from 'react';
+import PlannerImg from '../img/ingredients.png'
 
 let projectArray = [{
     projectName: "Daily Planner",
     projectDesc: "A simple planning app for scheduling your work day.",
     projectLink: "https://gsiggins.github.io/gsiggins-planner/",
     projectGithub: "https://github.com/GSiggins/gsiggins-planner",
-    projectImg: ""
+    projectImg: {PlannerImg}
   },
   {
     projectName: "Note Taker",
