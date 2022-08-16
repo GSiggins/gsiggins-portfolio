@@ -4,28 +4,30 @@ import Footer from '../components/Footer'
 import NavBar from './Navbar'
 import Projects from '../components/Projects'
 import React, { useState } from 'react';
-import PlannerImg from '../img/ingredients.png'
+import PlannerImg from '../img/planner.png'
+import NoteTaker from '../img/notetaker.png'
+import Ingredients from '../img/ingredients.png'
 
 let projectArray = [{
     projectName: "Daily Planner",
     projectDesc: "A simple planning app for scheduling your work day.",
     projectLink: "https://gsiggins.github.io/gsiggins-planner/",
     projectGithub: "https://github.com/GSiggins/gsiggins-planner",
-    projectImg: {PlannerImg}
+    projectImg: PlannerImg
   },
   {
     projectName: "Note Taker",
     projectDesc: "Take notes on classes, meetings, or daily tasks.",
     projectLink: "https://vast-peak-19005.herokuapp.com/",
     projectGithub: "https://github.com/GSiggins/note-buddy",
-    projectImg: "../img/notetaker.png"
+    projectImg: NoteTaker
   },
   {
     projectName: "Ingredients",
     projectDesc: "Query third party APIs to return recipes ",
     projectLink: "https://gsiggins.github.io/ingredients/",
     projectGithub: "https://github.com/GSiggins/ingredients",
-    projectImg: "../src/img/ingredients.png"
+    projectImg: Ingredients
   },
   {
     projectName: "Popcorn Pal",
@@ -53,7 +55,7 @@ let projectArray = [{
 
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('aboutMe');
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
     // TODO: Add a comment describing the functionality of this method
     const renderPage = () => {

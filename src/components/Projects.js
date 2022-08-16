@@ -3,6 +3,7 @@ import Background from '../img/IMG_0096.JPG'
 
 
 export default function ProjectCard({ projectArray }) {
+  console.log(projectArray)
   return (
     <div style={{  
       backgroundImage: `url(${Background})`,
@@ -18,7 +19,10 @@ export default function ProjectCard({ projectArray }) {
             <div className='d-flex justify-content-center align-items-center'>
 
               <Card className='d-flex justify-content-center align-items-center background-blur-container light-container-text' style={{ width: '26rem' }}>
-                <Card.Img variant="top" src={project.projectImg} />
+                <Card.Img variant="top" src={project.projectImg} style={{ 
+                  maxHeight: 210,
+                  
+                }}/>
                 <Card.Body>
                   <Card.Title>{project.projectName}</Card.Title>
                   <Card.Text>
