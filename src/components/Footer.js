@@ -1,6 +1,6 @@
 import React from 'react';
 
-function footer() {
+function Footer() {
     return (
         <div className='d-flex justify-content-center fixed-bottom bg-white'>
             <div className="btn-group btn-group-lg" role="group" aria-label="Large button group">
@@ -12,4 +12,4 @@ function footer() {
     )
 }
 
-export default footer;
+export default Footer;

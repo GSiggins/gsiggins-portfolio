@@ -1,5 +1,5 @@
-import AboutMe from '../components/AboutMe'
-import ContactForm from '../components/ContactForm'
+import AboutMe from '../components/aboutMe'
+import ContactForm from '../components/contactForm'
 import Footer from '../components/Footer'
 import NavBar from './Navbar'
 import Projects from '../components/Projects'
