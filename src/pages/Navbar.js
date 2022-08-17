@@ -1,5 +1,5 @@
 import React from 'react';
-
+import GSigginsResume from '../img/GSigginsResume.pdf'
 
 function NavBar({ currentPage, handlePageChange }) {
     return (
@@ -28,7 +28,8 @@ function NavBar({ currentPage, handlePageChange }) {
                                 onClick={() => handlePageChange('ContactForm')}
                                 className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item resume-dl">
+                        <a className='nav-link' href={GSigginsResume} download={GSigginsResume}>Resume</a>
                         </li>
                     </ul>
                 </div>
