@@ -2,7 +2,7 @@
 
 ## Welcome to Greg Siggins Portfolio
 
-    Hello and welcome to my portfolio. I am a full stack developer using my skills in problem solving, critical thinking, and teamwork developed after years in the high-paced medical field. Feel free to check out each repo and deployed app page for each application. My Github, LinkedIn, and Email are located in the footer as buttons. 
+Hello and welcome to my portfolio. I am a full stack developer using my skills in problem solving, critical thinking, and teamwork developed after years in the high-paced medical field. Feel free to check out each repo and deployed app page for each application. My Github, LinkedIn, and Email are located in the footer as buttons. 
 
 ## Languages and technologies
 - HTML
