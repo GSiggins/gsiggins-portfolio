@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/gsiggins-portfolio/static/css/main.110eb8ae.chunk.css",
+    "main.js": "/gsiggins-portfolio/static/js/main.c1bc2af0.chunk.js",
+    "main.js.map": "/gsiggins-portfolio/static/js/main.c1bc2af0.chunk.js.map",
+    "runtime-main.js": "/gsiggins-portfolio/static/js/runtime-main.dbfbbad1.js",
+    "runtime-main.js.map": "/gsiggins-portfolio/static/js/runtime-main.dbfbbad1.js.map",
+    "static/css/2.984f751f.chunk.css": "/gsiggins-portfolio/static/css/2.984f751f.chunk.css",
+    "static/js/2.e790850a.chunk.js": "/gsiggins-portfolio/static/js/2.e790850a.chunk.js",
+    "static/js/2.e790850a.chunk.js.map": "/gsiggins-portfolio/static/js/2.e790850a.chunk.js.map",
+    "index.html": "/gsiggins-portfolio/index.html",
+    "static/css/2.984f751f.chunk.css.map": "/gsiggins-portfolio/static/css/2.984f751f.chunk.css.map",
+    "static/css/main.110eb8ae.chunk.css.map": "/gsiggins-portfolio/static/css/main.110eb8ae.chunk.css.map",
+    "static/js/2.e790850a.chunk.js.LICENSE.txt": "/gsiggins-portfolio/static/js/2.e790850a.chunk.js.LICENSE.txt",
+    "static/media/GSigginsResume.193b3e2b.pdf": "/gsiggins-portfolio/static/media/GSigginsResume.193b3e2b.pdf",
+    "static/media/IMG_0077.52345ed7.JPG": "/gsiggins-portfolio/static/media/IMG_0077.52345ed7.JPG",
+    "static/media/IMG_0096.fe81a0d4.JPG": "/gsiggins-portfolio/static/media/IMG_0096.fe81a0d4.JPG",
+    "static/media/IMG_5959.769e700a.JPG": "/gsiggins-portfolio/static/media/IMG_5959.769e700a.JPG",
+    "static/media/fitness.b1b5be8a.png": "/gsiggins-portfolio/static/media/fitness.b1b5be8a.png",
+    "static/media/ingredients.9749ec7b.png": "/gsiggins-portfolio/static/media/ingredients.9749ec7b.png",
+    "static/media/notetaker.238a53ee.png": "/gsiggins-portfolio/static/media/notetaker.238a53ee.png",
+    "static/media/payroll.f6c6e240.png": "/gsiggins-portfolio/static/media/payroll.f6c6e240.png",
+    "static/media/planner.424d6d24.png": "/gsiggins-portfolio/static/media/planner.424d6d24.png",
+    "static/media/popcornpal.f1e1c303.png": "/gsiggins-portfolio/static/media/popcornpal.f1e1c303.png",
+    "static/media/techden.98da973b.png": "/gsiggins-portfolio/static/media/techden.98da973b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbfbbad1.js",
+    "static/css/2.984f751f.chunk.css",
+    "static/js/2.e790850a.chunk.js",
+    "static/css/main.110eb8ae.chunk.css",
+    "static/js/main.c1bc2af0.chunk.js"
+  ]
+}
