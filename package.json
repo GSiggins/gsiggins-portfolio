@@ -1,5 +1,6 @@
 {
   "name": "bucket-list",
+   "homepage": "https://GSiggins.github.io/gsiggins-portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
